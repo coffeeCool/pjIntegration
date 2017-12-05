@@ -1,0 +1,30 @@
+{
+  "name": "eggService",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev"
+  },
+  "version": "1.0.0",
+  "description": "pure",
+  "main": "index.js",
+  "author": "zihan <hewentaowx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "axios-mock-adapter": "^1.10.0",
+    "class-todo-redux": "file:../classTodoRedux",
+    "coffee-require": "^0.0.3",
+    "ddeyes": "^0.0.4",
+    "egg": "^2.0.0",
+    "egg-bin": "^4.3.3",
+    "egg-mock": "^3.12.2",
+    "egg-validate": "^1.0.0",
+    "egg-view-nunjucks": "^2.1.4",
+    "json-server": "^0.12.1",
+    "mockjs": "^1.0.1-beta3",
+    "sha1": "^1.1.1",
+    "shelljs": "^0.7.8",
+    "user-todo-redux": "file:../userTodoRedux",
+    "wechat-oauth": "^1.2.1"
+  }
+}
